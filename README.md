@@ -20,6 +20,13 @@ Just enable the plugin in the settings and run your game. If you're happy with t
 1. Cut/Copy the core file and paste it anywhere you want
 2. Define this new path inside `.gitignore` and `addons/wdebugger/wdebugger.gd` -> `wdebugger_core_path` variable.
 
+## Contribution
+
+Even though this is a fully functional plugin, any reasonable and beneficial contribution
+is highly appreciated. Feel free to make your changes and make a pull request or to just simply open an issue  
+**Known features/fixes needed**:
+1. Argument's default value should be placed inside the field by default.
+
 # License
 
 This project is licensed under the GNU General Public License (GPL) v3. You are free to use, modify, and distribute it, but any derivative work must also be open source and released under the same license. See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) for full terms.  
