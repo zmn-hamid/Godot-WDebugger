@@ -4,6 +4,8 @@ A debugger addon that works seemslessly with Godot and uses SubWindows to to be 
 
 This also makes the usage of the debugging functions way easier, making this plugin a really good choice.
 
+If you liked the addon, please give it a star. Thanks
+
 ## Installation
 
 This plugin will be available in the asset store, but to install it manually you can download project and copy the [addons folder](addons) folder to your project.
