@@ -1,14 +1,22 @@
 # WDebugger: A Git-friendly Debugger
 
-A debugger addon that works seemslessly with Godot and uses SubWindows to to be Git friendly. Meaning you can define your functions in a specific file and put that file in .gitignore to avoid bloat in your git history.
+Most (if not all) of the debugging plugins have two major flaws that I always disliked:
 
-This also makes the usage of the debugging functions way easier, making this plugin a really good choice.
+1. They are not git-friendly. You can't ignore the debugging functions, therefore they're committed to the git history. This causes:
+    - Bloat in your git history
+    - Unwanted changes to files when you just want to change a debugging function
+    - Conflicts when working in a team - which is probably the most important issue
+2. They take too much space on the game, making which interfers with the testing. Whether be a debugging console that pops up, or just normal GUI buttons you have defined.
 
-If you liked the addon, please give it a star. Thanks
+To Address and fix these issues, I made this plugin. It solves the first issue by separating the debugging functions in a specific file (which you can put in `.gitignore` afterwards); And solves the second problem by introducing a Window node that is separate from the main window.
+
+If you liked the addon, please give it a star. Thanks!
 
 ## Installation
 
 This plugin will be available in the asset store, but to install it manually you can download project and copy the [addons folder](addons) folder to your project.
+
+Note: This plugin only works with Godot 4.0+ since it usees SubViewport
 
 ## How To Test
 
