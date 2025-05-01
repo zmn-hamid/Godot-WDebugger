@@ -29,5 +29,4 @@ is highly appreciated. Feel free to make your changes and make a pull request or
 
 # License
 
-This project is licensed under the GNU General Public License (GPL) v3. You are free to use, modify, and distribute it, but any derivative work must also be open source and released under the same license. See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) for full terms.  
-**Disclaimer**: If your derivative work is a game, you're free to use this plugin for its intended usage which is debugging, meaning it falls under MIT license.
+This project is licensed under the GNU General Public License (GPL) v3. See [LICENSE](LICENSE) for full terms.
